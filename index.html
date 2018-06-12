@@ -12,6 +12,7 @@
         <h2 class="townDisplay">Online version</h2>
     </div>
     <div class="container">
+        <h3 class="day"></h3>
         <div class="input">
             <div class="city" id="input">
                 Town Name:
@@ -37,12 +38,16 @@
                     <p>Wood:<p class="displayWood"></p></p>
                     
                 </div>
+                <div class="food" id="data">
+                    <p>Food:<p class="displayFood"></p></p>
+                    
+                </div>
                 <div class="water" id="data">
                     <p>Water:<p class="displayWater"></p></p>
                     
                 </div>
                 <div class="drank" id="data">
-                    <p>Drank per turn:<p class="displayDrink"></p></p>
+                    <p>Food and water used per turn:<p class="displayDrink"></p></p>
                     
                 </div>
                 <div class="well" id="data">
@@ -56,6 +61,7 @@
             </div>
             <div class="choices">
                 <button class="getWood" id="placer">Chop wood</button>
+                <button class="getFood" id="placer">Get food</button>
                 <button class="getWater" id="placer">Get water</button>
                 <button class="getHouse" id="placer">Build house (Requires 5 wood)</button>
                 <button class="getWell" id="placer">Build well (Requires 6 wood)</button>
