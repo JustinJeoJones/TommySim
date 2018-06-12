@@ -1,0 +1,57 @@
+html{
+    background-color: #212121;
+    color: whitesmoke;
+}
+.title{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    color: black;
+    height: 80%;
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#input{
+    position: absolute;
+    text-align: left;
+    z-index: 1;
+    left: 50%;
+    margin-left: -180px;
+    margin-top: 150px;
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#placer{
+    display: flex;
+    flex-direction: column;
+}
+.choices{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.menu{
+    margin-top: 150px; 
+}
+#data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.status{
+    position: absolute;
+    text-align: left;
+    z-index: 1;
+    left: 50%;
+    margin-left: -180px;
+    margin-top: 150px;
+}

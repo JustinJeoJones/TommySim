@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Tommy Sim</h1>
+        <h2 class="townDisplay">Online version</h2>
+    </div>
+    <div class="container">
+        <div class="input">
+            <div class="city" id="input">
+                Town Name:
+                <input type="text" id="town">
+                <button class="submitTown">Submit</button>
+            </div>
+            <div class="person" id="input">
+                New Person Name:
+                <input type="text" id="name">
+                <p>A new person has come to the city!
+                    <button class="submitPerson">Submit</button>
+                </p>
+
+            </div>
+        </div>
+        <div class="menu">
+            <div class="stats">
+                <div class="population" id="data">
+                    <p>People in town:<p class="displayPeople"></p></p>
+                    
+                </div>
+                <div class="wood" id="data">
+                    <p>Wood:<p class="displayWood"></p></p>
+                    
+                </div>
+                <div class="water" id="data">
+                    <p>Water:<p class="displayWater"></p></p>
+                    
+                </div>
+                <div class="drank" id="data">
+                    <p>Drank per turn:<p class="displayDrink"></p></p>
+                    
+                </div>
+                <div class="well" id="data">
+                    <p>Well(Water regen):<p class="displayWell"></p></p>
+                   
+                </div>
+                <div class="house" id="data">
+                    <p>House:<p class="displayHouse"></p></p>
+                    
+                </div>
+            </div>
+            <div class="choices">
+                <button class="getWood" id="placer">Chop wood</button>
+                <button class="getWater" id="placer">Get water</button>
+                <button class="getHouse" id="placer">Build house (Requires 5 wood)</button>
+                <button class="getWell" id="placer">Build well (Requires 6 wood)</button>
+                <button class="getRandom" id="placer">Random Event</button>
+            </div>
+        </div>
+        <div class="status">
+            <p class="message"></p>
+            <button class="continue">continue</button>
+        </div>
+    </div>
+</body>
+
+</html>
